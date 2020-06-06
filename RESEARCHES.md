@@ -22,3 +22,18 @@ https://www.google.com/search?q=InvocationTargetException%3A+Error+loading+confi
 
 https://github.com/spring-cloud/spring-cloud-gcp/issues/246
 
+## Useful code to add in pom.xml to avoid errors while building
+
+```
+<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.4.0-b180830.0359</version>
+</dependency>
+<dependency>
+    <groupId>javassist</groupId>
+    <artifactId>javassist</artifactId>
+    <version>3.12.1.GA</version>
+</dependency> 
+```
