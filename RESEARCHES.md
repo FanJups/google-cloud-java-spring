@@ -37,3 +37,42 @@ https://github.com/spring-cloud/spring-cloud-gcp/issues/246
     <version>3.12.1.GA</version>
 </dependency> 
 ```
+
+
+## gzip: stdin: unexpected end of file tar: Child returned status 1 tar: Error is not recoverable: exiting now
+
+https://www.google.com/search?q=gzip%3A+stdin%3A+unexpected+end+of+file+tar%3A+Child+returned+status+1+tar%3A+Error+is+not+recoverable%3A+exiting+now&oq=gzip%3A+stdin%3A+unexpected+end+of+file+tar%3A+Child+returned+status+1+tar%3A+Error+is+not+recoverable%3A+exiting+now&aqs=chrome..69i57j69i58.1743j0j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/39643013/gzip-stdin-not-in-gzip-format-tar-child-returned-status-1-tar-error-is-not-r
+
+## spring initializr curl
+
+https://www.google.com/search?sxsrf=ALeKk02uVDZuzrpIbmmhhFWliQmaI-rr3A%3A1591428011674&ei=q0PbXuvqKOWk1fAP_7GTsAg&q=spring+initializr+curl&oq=spring+initializr+curl&gs_lcp=CgZwc3ktYWIQAzIFCAAQywEyBggAEBYQHjoECAAQRzoCCABQ6PIEWMmABWCghAVoAHABeACAAboDiAGcDpIBBzItMS4yLjKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwir7Miq0-zpAhVlUhUIHf_YBIYQ4dUDCAw&uact=5
+
+https://github.com/spring-io/initializr
+
+https://docs.spring.io/initializr/docs/current/reference/html/
+
+## how to unzip linux
+
+https://www.google.com/search?q=how+to+unzip+linux&oq=how+to+unzi&aqs=chrome.3.0j69i57j0l6.8771j0j7&sourceid=chrome&ie=UTF-8
+
+https://linuxize.com/post/how-to-unzip-files-in-linux/
+
+## lab 5 task 7 question 1 solution
+
+https://www.coursera.org/learn/google-cloud-java-spring/discussions/weeks/2/threads/K1aQ3AQtSOGWkNwELcjhBg
+
+```
+cd ~
+
+mkdir message-processor
+
+cd message-processor
+
+curl https://start.spring.io/starter.tgz -d dependencies=cloud-gcp-pubsub -d bootVersion=2.1.9.RELEASE -o message-processor.tgz
+
+tar -xzvf message-processor.tgz
+
+rm message-processor.tgz
+```
